@@ -160,8 +160,12 @@ hr {
     margin: 20px 0 10px 0;
     font-weight: 900;
 }
-input {
-    padding: 10px;
+.subscribe input {
+    height: 42px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
 }
 .subscribe-btn {
     text-align: center;
@@ -305,7 +309,7 @@ footer {
 .banner-img img{
     width: 350px;
     height: 100%;
-    margin: 50px 0 10px 50px;
+    margin: 70px 0 10px 50px;
 }
 .meet-our-player-txt{
     font-size: 30px;
