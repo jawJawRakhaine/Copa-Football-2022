@@ -117,10 +117,6 @@
     margin-bottom: 33px;
     text-align: justify;
 }
-/* hr {
-    width: 50%;
-    margin: 0 auto;
-} */
   /* download apps */
 .download-apps {
     width: 100%;
@@ -312,6 +308,9 @@ footer {
 }
 .player{
     width: 100%;
+}
+.subscribe input{
+    width: 60%;
 }
 .contact-form{
     width: 90%;
