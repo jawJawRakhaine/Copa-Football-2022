@@ -186,10 +186,11 @@
 .contact-form{
     display: grid;
     justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 .contact-form input {
-    width: 100%;
+    width: 50%;
     height: 40px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -198,7 +199,7 @@
     margin-bottom: 10px;
 }
 .contact-form textarea {
-    width: 100%;
+    width: 50%;
     height: 150px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -208,7 +209,8 @@
     resize: none;
 }
 .contact-form button {
-    width: 100%;
+    display: block;
+    width: 10%;
     height: 40px;
     border: none;
     border-radius: 5px;
@@ -217,6 +219,9 @@
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #e02c6d;
 }
   /* footer */
 footer {
@@ -269,7 +274,7 @@ footer {
 /* media query */
 /* mobile */
 
-@media screen and (max-width: 670px) {
+@media only screen and (max-width:688px) {
 .container {
     width: 100vw;
     height: 100vh;
@@ -312,9 +317,12 @@ footer {
 .subscribe input{
     width: 60%;
 }
-.contact-form{
-    width: 90%;
-    margin: 0 auto;
+.contact-form input , .contact-form textarea{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.contact-form button{
+    width: 20%;
 }
 .footer-logo img{
     width: 70%;
